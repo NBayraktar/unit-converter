@@ -1,3 +1,35 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* 
+
+*/
+
+.container {
+  background: #b3b3b3;
+  text-align: center;
+}
+
+.wraper {
+  width: 700px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-one,
+.section-two {
+  padding: 50px 0;
+}
+
+.section-one {
+  background: linear-gradient(246.26deg, #057859 0%, #11b881 100%);
+}
+
+.section-two {
+  background: #1f2937;
 }
