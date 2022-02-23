@@ -1,11 +1,34 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  color: #f0f0f0;
   margin: 0;
   padding: 0;
 }
-/* 
 
-*/
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+span {
+  color: #1f2937;
+}
+
+.input {
+  width: 70%;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 80px;
+  padding: 5px 30px;
+  background: #098f66;
+  color: #f0f0f0;
+}
 
 .container {
   background: #b3b3b3;
@@ -27,9 +50,13 @@ body {
 }
 
 .section-one {
-  background: linear-gradient(246.26deg, #057859 0%, #11b881 100%);
+  background: #098f66;
 }
 
 .section-two {
   background: #1f2937;
+}
+
+.units {
+  color: #098f66;
 }
