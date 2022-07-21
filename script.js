@@ -1,9 +1,14 @@
+// DOM Elements
 const inputValue = document.getElementById('input');
 const meterFeetEl = document.getElementById('length');
 const literGallonEl = document.getElementById('volume');
 const kilogramPoundEl = document.getElementById('mass');
-inputValue.addEventListener('keyup', calcUnits);
+const btn = document.getElementById('btn');
 
+// Listen for event and calling function
+btn.addEventListener('click', calcUnits);
+
+// Function execution
 function calcUnits() {
   let inputNum = Number(inputValue.value);
   let metFt = inputNum * 3.2808;

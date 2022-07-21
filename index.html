@@ -18,17 +18,29 @@
       <div class="wraper">
         <div class="section-one">
           <h1><span>Metric/Imperial</span> Unit Conversion</h1>
-          <input type="text" id="input" class="input" placeholder="0" />
+          <div class="sec-one-unit-wraper">
+            <input
+              type="number"
+              id="input"
+              class="input"
+              placeholder="0"
+              min="0"
+              max="1000"
+            />
+            <button id="btn" class="unit-btn">Convert</button>
+          </div>
         </div>
         <div class="section-two">
           <div>
             <h3>Length (<span class="units">Meter/Feet</span>)</h3>
             <p id="length" class="length"></p>
           </div>
+
           <div>
             <h3>Volume (<span class="units">Liters/Gallons</span>)</h3>
             <p id="volume" class="volume"></p>
           </div>
+
           <div>
             <h3>Mass (<span class="units">Kilograms/Pounds</span>)</h3>
             <p id="mass" class="mass"></p>
